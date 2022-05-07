@@ -24,25 +24,45 @@ Each function information is stored as JSON in MongoDB.
 ### BCSD_dataset
 
 Field information:
+
 funcname: software name - function name
+
 matrix: 200x200 dimension co-occurrence matrix
+
 node_num: number of basic blocks
+
 edge_num: number of edge to control flow graph(CFG)
+
 call_func_num: number of functions called
+
 code_size: code segment size
+
 frame_size: frame size
+
 sub_esp_size: local variable space size
+
 string_num: number of strings
+
 mnem_num: number of assembly instructions
+
 
 ### cve_dataset
 Project：curl, libtiff, openjpeg, openssl, radare2, tcpdump
+
 Field information：
+
 cveid: CVE ID
+
 file: file where the vulnerability exists
+
 funcname-list: vulnerable function name
+
 v-affect-version: version number of vulnerable software
+
 p-version: version number of patched software 
+
 vul-tpye: vulnerability type
+
 vul-level: vulnerability level
+
 description: vulnerability description
